@@ -1,0 +1,11 @@
+on:
+  push:
+    branches:
+      -master
+      
+jobs:
+  build:
+    runs-on: Ubuntu-latest
+    steps:
+      - name: "dhughug1"
+        run: echo "Hello"
